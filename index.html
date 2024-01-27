@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 1</title>
+    <link rel="stylesheet" href="myStyles.css">
+</head>
+<body>
+    <div>
+        <div class="hero">
+            <img src="/images/broadway_boogie.webp">
+            <div class="heroText">
+                <h1>Piet Mondrian</h1>
+                <p>Piet Mondrian, el «pintor de los cuadraditos» fue un artista holandés, principal difusor del neoplasticismo.
+                Para Mondrian, el arte debía ser representado a través de líneas rectas y colores puros.</p>
+            </div>
+        </div>
+
+        <h2>Mondrian en código</h2>
+        <div class="nav">
+            <a class="button" href="#blockquote">Blockquote</a>
+            <a class="button" href="#grid">Div & Grid</a>
+            <a class="button" href="#code">Code</a>
+        </div>
+
+        <h2 id="blockquote">Inspiración</h2>
+        <hr/>
+        <p>Piet Mondrian expresa que las relaciones (de color, dimensión y posición) son lo principal dentro del arte.</p>
+        <blockquote cite="https://www.brainyquote.com/quotes/piet_mondrian_718895">
+            <p>"Everything is expressed through relationship. Colour can exist only through other colours, dimension through other dimensions, position through other positions that oppose them. That is why I regard relationship as the principal thing."
+            </p>
+            <footer>— Piet Mondrian</footer>
+        </blockquote>
+        
+        <h2 id="grid">Recreando a Mondrian con HTML y CSS</h2>
+        <hr/>
+        <p>El siguiente cuadro inspirado en el arte de Mondrian fué elaborado utilizando DIVs de HTML y GRIDs en CSS. </p>
+        <div class="grid">
+            <div class="container">
+                <div class="item red"></div>
+                <div class="item white1"></div>
+                <div class="item white2"></div>
+                <div class="item white3"></div>
+
+                <div class="item blue"></div>
+                <div class="item white4"></div>
+
+                <div class="item"></div>
+                <div class="item yellow"></div>
+                <div class="item black"></div>
+            </div>
+        </div>
+
+        <h2 id="code">El código</h2>
+        <hr/>
+        <p>Para crear el cuadro se utilizaron únicamente las etiqutas &ltdiv&gt para crear las cajas y &ltclass&gt para dar estilo en CSS.</p>
+        <pre>
+            <code>
+                &ltdiv class="grid"&gt
+                    &ltdiv class="container"&gt
+                        &ltdiv class="item red">&lt/div>
+                        &ltdiv class="item white1">&lt/div>
+                        &ltdiv class="item white2">&lt/div>
+                        &ltdiv class="item white3">&lt/div>
+
+                        &ltdiv class="item blue">&lt/div>
+                        &ltdiv class="item white4">&lt/div>
+
+                        &ltdiv class="item">&lt/div>
+                        &ltdiv class="item yellow">&lt/div>
+                        &ltdiv class="item black">&lt/div>
+                    &lt/div>
+                &lt/div>
+            </code>
+        </pre>
+    </div>
+    
+
+
+</body>
+</html>
